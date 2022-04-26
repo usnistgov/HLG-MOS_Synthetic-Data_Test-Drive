@@ -1,6 +1,6 @@
 # Site settings
-title: "NIST Pages Template"
-description: "Providing a page template for pages.nist.gov hosting groups."
+title: "HLG-MOS Synthetic Data Test Drive"
+description: "Information and results from the UNCE HLG-MOS Synthetic Data Test Drive."
 
-baseurl: "/Pages-Template"
+baseurl: "/HLG-MOS_Synthetic-Data_Test-Drive"
 rooturl: ""
