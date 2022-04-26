@@ -120,7 +120,7 @@ a {
   color: var(--main-color);
   text-decoration: none; }
   a:hover {
-    border-bottom-color: var(--main-color);;
+    border-bottom-color: var(--main-color);
     color: var(--main-color) !important; }
     a:hover strong {
       color: inherit; }
