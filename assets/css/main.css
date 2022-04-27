@@ -2276,3 +2276,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+.table-section {
+  border-bottom: solid 2px rgba(210, 215, 217, 0.75)
+}
