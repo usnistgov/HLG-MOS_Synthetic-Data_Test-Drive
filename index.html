@@ -26,8 +26,9 @@
 				<script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-66610693-1&yt=true&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"></script>
 
 				<!-- Custom CSS -->
-				<link rel="stylesheet" href="assets/css/main.css" />
-				<link rel="stylesheet" href="assets/css/google_table.css" />
+				<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+				<link rel="stylesheet" type="text/css" href="assets/css/google_table.css" />
+				<link rel="stylesheet" type="text/css" href="assets/css/common.css" />
 
 				<h1>
 					<a class="nist-logo" target="_blank" href="http://www.nist.gov/" title="Go to nist.gov">National Institute of Standards and Technology</a>
@@ -64,7 +65,7 @@
 											Test-Drive</h1>
 										<p>LIBRARY OF RESOURCES COMPILED FROM <br />HLG-MOS CHALLENGE 2022</p>
 									</header>
-									<p class="para">The HLG-MOS Challenge used NIST's <a href="https://github.com/usnistgov/SDNist">SDNIST: Synthetic Data Benchmarking Library</a>
+									<p>The HLG-MOS Challenge used NIST's <a href="https://github.com/usnistgov/SDNist">SDNIST: Synthetic Data Benchmarking Library</a>
 											as an evaulation tool. These results are shared with permission under NIST agreement DTA-22-011. These data are for informational purposues and inclusion does not imply an endorsement.
 									</p>
 								</div>
@@ -76,9 +77,115 @@
 							<section id="banner">
 								<div class="content" id="summary_main">
 									<header>
+										<h2>Overview</h2>
+									</header>
+									<p>
+										The Test-drive is an archive of collective knowledge gathered from the participants’ 
+										submissions for the HLG-MOS Synthetic Data Challenge 2022. This information platform 
+										aims to offer some insights from the members of National Statistical Organizations 
+										(NSOs) regarding the subject matter expertise in synthetic data generation, and 
+										their perspective towards utility and privacy of synthesized data. 
+									</p>
+									<header>
+										<h3>HLG-MOS Synthetic Data Challenge</h3>
+									</header>
+									<p>
+										The challenge was organized with an objective to assess a broad set of data synthesizers 
+										and data evaluators over a week in late January 2022. A total of 17 teams participated, 
+										representing NSO’s, NGO’s industry and academia from a variety of countries and continents. 
+										Participants tried out different combinations of data set, configuration, synthesizer, 
+										and evaluator to test synthetic data for stereotypical uses of disseminated microdata. 
+										Teams could follow the provided <a>quickstart guidance documents</a> and could also reach out 
+										to a range of SME by slack or in office hours
+									</p>
+									<p>
+										Numeber of approaches that were tried, collectively across all participating teams:</br>
+										<span class="textColorSpan">17</span> data synthesis techniques</br> 
+										<span class="textColorSpan">34</span> data utility evaluation techniques</br>
+										<span class="textColorSpan">21</span> data privacy evaluation techniques
+									</p>
+									<p>
+										Eight participating teams provided a summary for the use-case suitability of the synthesized
+										data instances. The following figure shows the number of teams that found at least one 
+										approach that was at least potentially suitable for each of the use cases on each of the 
+										two data sets.
+									</p>
+									<table class="customTable">
+										<tbody>
+											<tr>
+												<th></th>
+												<th>Public Release</th>
+												<th>Testing Analysis</th>
+												<th>Education</th>
+												<th>Testing Code</th>
+											</tr>
+											<tr>
+												<th>Student SAT-GPA Data</th>
+												<td colspan="1" rowspan="1">
+													<p><span>6</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>8</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>8</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>8</span></p>
+												</td>
+											</tr>
+											<tr>
+												<th>ACS Data</th>
+												<td colspan="1" rowspan="1">
+													<p><span>4</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>5</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>7</span></p>
+												</td>
+												<td colspan="1" rowspan="1">
+													<p><span>6</span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<header>
+										<h3>Challenge Winners</h3>
+									</header>
+									<p>
+										<b><span class="textColorSpan">1st Place:</span> GOFCoE</b></br>
+										11 points (6 points Student SAT-GPA Data + 5 points ACS Data )
+										</br>
+										</br>
+										<b><span class="textColorSpan">2nd Place:</span> DESTATIS</b></br> 
+										10 points (5 points Student SAT-GPA Data + 5 points ACS Data)
+										</br>
+										</br>
+										<b><span class="textColorSpan">Honorable Mention:</span> Team Netherlands</b></br> 
+										8 points (4 points Student SAT-GPA Data + 4 points ACS Data)
+										</br>
+										</br>
+										<b><span class="textColorSpan">Honorable Mention:</span> Team CRA</b></br>
+										8 points (4 points Student SAT-GPA Data + 4 points ACS Data)
+									  </br>
+										</br>
+										<b><span class="textColorSpan">Honorable Mention:</span> ISTAT</b></br>
+										7 points (4 points Student SAT-GPA Data + 3 points ACS Data)</br>
+									</p>
+								</div>
+								<span>
+									<img src="images/pic11.png" alt="Digitial drawing of a person with an abstract diagram." />
+								</span>
+							</section>
+							<section id="banner">
+								<div class="content" id="summary_main">
+									<header>
 										<h2>Summary of Synthesis and Evaluation Methods</h2>
 									</header>
-									<p class="para">List of methods and tools used by the participating teams
+									<p>List of methods and tools used by the participating teams
 										for the synthesis and evaluation of data in the HLG-MOS 2022 Challenge</p>
 								</div>
 								<span class="image main">

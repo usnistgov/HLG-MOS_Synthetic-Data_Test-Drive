@@ -1,0 +1,16 @@
+
+.textColorSpan {
+  color: var(--main-color);
+}
+
+
+.customTable th {
+  color: white;
+  background-color: var(--main-color);
+  border: 1 solid black;
+}
+
+.customTable td {
+  text-align: center;
+}
+
