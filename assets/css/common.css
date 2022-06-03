@@ -8,9 +8,41 @@
   color: white;
   background-color: var(--main-color);
   border: 1 solid black;
+  text-align: center;
 }
 
 .customTable td {
   text-align: center;
 }
 
+.level1 li {
+  font-weight: bold;
+}
+
+.level2 li {
+  color: gray;
+}
+
+.space { margin-top: 300px; }
+
+#wrapper p {
+  text-align: justify !important;
+}
+
+.span-name {
+  font-weight: bold;
+  color: var(--main-color);
+  font-size: large;
+}
+
+.span-role {
+  color: grey;
+}
+
+.span-title {
+  color: grey;
+}
+
+.span-email {
+  color: black;
+}
