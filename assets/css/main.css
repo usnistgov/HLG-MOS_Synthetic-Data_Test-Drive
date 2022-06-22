@@ -10,6 +10,15 @@
   --main-color: #467DFF;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -69,8 +78,8 @@ input, select, textarea {
 @-ms-viewport {
   width: device-width; }
 
-body {
-  -ms-overflow-style: scrollbar; }
+/* body {
+  -ms-overflow-style: scrollbar; } */
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -1558,6 +1567,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
+    text-decoration: none;
     background-color: var(--main-color);
     box-shadow: none;
     color: #ffffff !important; }
@@ -1566,13 +1576,13 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #0666e4; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #f45c5c; }
+      background-color: #0666e4; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1919,7 +1929,8 @@ button,
     width: 2em; }
   #search form input[type="text"] {
     padding-right: 2.75em; }
-
+/* 
+#sidebar .inner::-webkit-scrollbar { display: none; } */
 #sidebar {
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
@@ -1942,7 +1953,6 @@ button,
   #sidebar > .inner {
     overflow-y: auto;
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
-    position: fixed;
     width: 26em; }
     #sidebar > .inner > * {
       border-bottom: solid 2px var(--main-color);
