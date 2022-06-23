@@ -46,3 +46,14 @@
 .span-email {
   color: black;
 }
+
+.image-icon {
+
+}
+
+.image-icon a {
+  text-decoration: none;
+  vertical-align: super;
+  border-bottom: 0px;
+  font-size: 20px;
+}
