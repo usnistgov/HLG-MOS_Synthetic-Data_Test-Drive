@@ -1,5 +1,5 @@
 @import url('https://themes.googleusercontent.com/fonts/css?kit=na2xy4REgy2vjVAZtpZNcyWqADZi4Syx-AEk2KH_Q_i2hmvOwsMPqTIP4KVeiV_x96xlbbE5D7Gw2o7jubnkMA');
-
+/* 
 ol.lst-kix_op1pqfkwbped-8.start {
   counter-reset: lst-ctn-kix_op1pqfkwbped-8 0
 }
@@ -2373,14 +2373,14 @@ ul.lst-kix_j674si46d6vq-7 {
 
 .lst-kix_azctqv706ua-0>li:before {
   content: "\0025cf  "
-}
+} */
 
-ol {
+.guide ol {
   margin: 0;
   padding: 0
 }
 
-table td,
+.guide table td,
 table th {
   padding: 0
 }
@@ -3551,7 +3551,11 @@ table th {
   color: #4d5156
 }
 
-.title {
+.guide {
+
+}
+
+.guide .title {
   padding-top: 0pt;
   color: #000000;
   font-size: 26pt;
@@ -3564,7 +3568,7 @@ table th {
   text-align: left
 }
 
-.subtitle {
+.guide .subtitle {
   padding-top: 0pt;
   color: #666666;
   font-size: 15pt;
@@ -3577,20 +3581,20 @@ table th {
   text-align: left
 }
 
-li {
+.guide li {
   color: #000000;
   font-size: 11pt;
   font-family: "Arial"
 }
 
-p {
+.guide p {
   margin: 0;
   color: #000000;
   font-size: 11pt;
   font-family: "Arial"
 }
 
-h1 {
+.guide h1 {
   padding-top: 20pt;
   color: #000000;
   font-size: 20pt;
@@ -3603,7 +3607,7 @@ h1 {
   text-align: left
 }
 
-h2 {
+.guide h2 {
   padding-top: 18pt;
   color: #000000;
   font-size: 16pt;
@@ -3616,7 +3620,7 @@ h2 {
   text-align: left
 }
 
-h3 {
+.guide h3 {
   padding-top: 16pt;
   color: #434343;
   font-size: 14pt;
@@ -3629,7 +3633,7 @@ h3 {
   text-align: left
 }
 
-h4 {
+.guide h4 {
   padding-top: 14pt;
   color: #666666;
   font-size: 12pt;
@@ -3642,7 +3646,7 @@ h4 {
   text-align: left
 }
 
-h5 {
+.guide h5 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
@@ -3655,7 +3659,7 @@ h5 {
   text-align: left
 }
 
-h6 {
+.guide h6 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
